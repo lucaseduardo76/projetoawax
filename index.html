@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/templat.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu-bar").addEventListener("click", function(){
+                if(document.querySelector(".nav ul").style.display == 'flex'){
+                    document.querySelector(".nav ul").style.display = 'none';
+                }else{
+                    document.querySelector(".nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    <title>AWAX - Personal project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-nav">
+            <div class="logo">
+                <img src="imagens/logo-awax.png" alt="">
+            </div>
+            <div class="nav">
+                <img class="menu-bar" src="icons/menu.png"/>
+                <ul>
+                    <li><a href="" class="active">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">OUR PROJECTS</a></li>
+                    <li><a href="">OUR TEAM</a></li>
+                    <li><a href="">HAPPY CLIENTS</a></li>
+                    <li><a href="">PRICE</a></li>
+                    <li><a href="">SOME FACTS</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="bg-photo">
+            <div class="container-rgba">   
+                <div class="container-central-photo">
+                    <div class="text-photo">
+                        <h1 id="titulo-one">DESIGN IS ABOUT</h1>
+                        <h1 id="titulo-two">COMMUNICATION</h1>
+                        <h3>CALL US: +00 0 1234 5678</h3>
+                        <a class="button" href="">GET IN TOUCH!</a>    
+                    </div>
+                    <div class="slide">
+                        <div class="circle active"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        
+                    </div>
+                </div>                
+            </div> 
+        </section>
+        <section class="about-us">
+            <div class="caixa-central-sectwo">
+                <div class="titulo">
+                    <h1>ABOUT US</h1>
+                    <h3>WHO WE ARE?</h3>
+                </div>
+                <div class="conteudo">
+                    <div class="left">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nemo, veniam fugit veritatis corrupti esse repudiandae harum consectetur, magni, placeat eveniet. Aspernatur nostrum quis blanditiis, magni impedit esse laborum fugit?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum aut aliquam illum, natus esse consequuntur aliquid. Pariatur quas fuga natus vel magnam dolorem, vitae exercitationem consequatur. Debitis, quidem nam!
+                        Lorem ipsum dolor sit amet!
+                        </p>   
+                        <a  class="button" href="">LEARN MORE</a>             
+                                      
+                    </div>
+                     
+                    <div class="img">
+                        <div class="black">
+                            <h3>WHATCH</h3>
+                            <i><img src="icons/icon-play.png" alt=""></i>
+                            <h3>VIDEO!</h3>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+
+        <section id="service">
+            <div class="container-services">
+                <div class="titulo">
+                    <h1>SERVICES</h1>
+                    <h3>SERVICES THAT WE PROVIDE</h3>
+                </div>
+                <div class="service-icons">
+                    <div class="box">
+                        <i><img src="icons/medalha.png" alt=""></i>
+                        <h1>HIGH QUALITY <br/> DESIGN</h1>
+                        <h3>prasente metus urna. feugiata placerat elementum</h3>
+                        
+                    </div>
+                    <div class="box">
+                        <i><img src="icons/estrela.png" alt=""></i>
+                        <h1>MODERN DESIGN</h1>
+                        <h3>prasente metus urna. feugiata placerat elementum</h3>
+                    </div>
+                    <div class="box">
+                        <i><img src="icons/relogio.png" alt=""></i>
+                        <h1>REGULAR </br> UPDATS</h1>
+                        <h3>prasente metus urna. feugiata placerat elementum</h3>
+                    </div>
+                    <div class="box ultima">
+                        <i><img src="icons/balao.png" alt=""></i>
+                        <h1>FAST AND FREE </br> SUPPORT</h1>
+                        <h3>prasente metus urna. feugiata placerat elementum</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-projects">
+            <div class="our-projects-conteudo">
+                <div class="titulo">
+                    <h1>OUR PROJECTS</h1>
+                    <h3>WHAT WE CREATE</h3>
+                </div>
+                <div class="nav" >
+                    <div><a href="">ALL</a></div>
+                    <div class="active"><a href="">PHOTO</a></div>
+                    <div><a href="">BRADING</a ></div>
+                    <div><a href="">ADVERTS</a></div>
+                    <div style="flex: 2;"><a href="">DEVELOPMENT</a></div>
+                    <div><a href="">MISC</a></div>
+                </div>
+                <div class="photos-projects">
+                    <div class="one box">
+                        <div class="bg-projects"> 
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="two box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="three box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="four box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="five box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="six box" >
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="seven box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="eight box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="nine box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="ten box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="eleven box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                    <div class="twelve box">
+                        <div class="bg-projects">
+                            <h2>ABOUT</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                        </div>
+                    </div>
+                </div>
+                <a class="button" href="">MORE PROJECTS</a> 
+            </div>
+
+        </section>
+
+        <section id="our-team">
+            <div class="black-background">
+                <div class="titulo">
+                    <h1 style="color: #fff;">OUR TEAM</h1>
+                    <h3>OUR CO-WORKERS</h3>
+                </div>
+                <div class="container-workers">
+                    <div class="container-slide-worker">   
+                        <div class="box-workers">
+                            <img class="img-workers" src="imagens/mulher1.png" alt="">
+                            <div class="names">
+                                <h1>JANE DOE</h1>
+                                <h3>Master mind</h3>
+                            </div>
+                            <div class="social-medias">
+                                <i><img src="icons/twitter.png" alt=""></i>
+                                <i><img src="icons/arroba.png" alt=""></i>
+                                <i><img src="icons/linkedin.png" alt=""></i>
+                                <i><img src="icons/facebook.png" alt=""></i>
+                                <i><img src="icons/web.png" alt=""></i>
+                                <i><img src="icons/googleplus.png" alt=""></i>
+                                <i><img src="icons/pinterest.png" alt=""></i>
+                            </div>
+                        </div>
+
+                        <div class="box-workers">
+                            <img class="img-workers" src="imagens/homem1.png" alt="">
+                            <div class="names">
+                                <h1>MIKE SHILLER</h1>
+                                <h3>creative head</h3>
+                            </div>
+                            <div class="social-medias">
+                                <i><img src="icons/twitter.png" alt=""></i>
+                                <i><img src="icons/arroba.png" alt=""></i>
+                                <i><img src="icons/linkedin.png" alt=""></i>
+                                <i><img src="icons/facebook.png" alt=""></i>
+                                <i><img src="icons/web.png" alt=""></i>
+                                <i><img src="icons/googleplus.png" alt=""></i>
+                                <i><img src="icons/pinterest.png" alt=""></i>
+                            </div>
+                        </div>
+
+                        <div class="box-workers">
+                            <img class="img-workers" src="imagens/mulher2.png" alt="">
+                            <div class="names">
+                                <h1>ANNA JOHNS</h1>
+                                <h3>technical lead</h3>
+                            </div>
+                            <div class="social-medias">
+                                <i><img src="icons/twitter.png" alt=""></i>
+                                <i><img src="icons/arroba.png" alt=""></i>
+                                <i><img src="icons/linkedin.png" alt=""></i>
+                                <i><img src="icons/facebook.png" alt=""></i>
+                                <i><img src="icons/web.png" alt=""></i>
+                                <i><img src="icons/googleplus.png" alt=""></i>
+                                <i><img src="icons/pinterest.png" alt=""></i>
+                            </div>
+                        </div>
+
+                        <div class="box-workers">
+                            <img class="img-workers" src="imagens/mulher1.png" alt="">
+                            <div class="names">
+                                <h1>ANNA JOHNS</h1>
+                                <h3>technical lead</h3>
+                            </div>
+                            <div class="social-medias">
+                                <i><img src="icons/twitter.png" alt=""></i>
+                                <i><img src="icons/arroba.png" alt=""></i>
+                                <i><img src="icons/linkedin.png" alt=""></i>
+                                <i><img src="icons/facebook.png" alt=""></i>
+                                <i><img src="icons/web.png" alt=""></i>
+                                <i><img src="icons/googleplus.png" alt=""></i>
+                                <i><img src="icons/pinterest.png" alt=""></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="clients">
+            <div id="happy-clients">
+                <div class="titulo">
+                    <h1>HAPPY CLIENTS</h1>
+                    <h3>CLIENT REVIEWS</h3>
+                </div>
+                <main>
+                    <img src="imagens/homem2.png" alt="">
+                    <div class="names">
+                        <h1>John
+                            
+                            Doe</h1>
+                        <h3>Head od PF departament</h3>
+                    </div>
+                    <img src="icons/quote.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde dignissimos earum sapiente, laudantium blanditiis rerum adipisci reiciendis, accusantium consectetur itaque nemo. Quod, obcaecati ipsam odit quibusdam iusto dolorum officiis!</p>
+                    
+                    <div class="slide">
+                        <div class="circle active"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </main>
+            </div>
+        </section>
+
+        <section class="icons">
+            
+                <div class="container-icons">                
+                    <img src="imagens/empresa1.png" alt="">
+                    <img src="imagens/empresa2.png" alt="">
+                    <img src="imagens/empresa3.png" alt="">
+                    <img src="imagens/empresa4.png" alt="">
+                    <img src="imagens/empresa5.png" alt="">
+                    <img src="imagens/empresa6.png" alt="">
+                </div>
+            
+        </section>
+
+        <section class="price">
+            <div class="titulo">
+                <h1>PRICE</h1>
+                <h3>PRICING TABLE</h3>
+            </div>
+            <div class="conteudo">
+                <div class="container-price">
+                    <h3>EXPRESS</h3>
+                    <h1>$ 9.99</h1>
+                    <h4>/ MONTH</h4>
+                    <div class="obs">
+                        <h5>Tracking Issues</h5>
+                        <h5>Add bugs through email</h5>
+                        <h5>Notifications</h5>
+                        <h5>Time tracking</h5>
+                        <h5>Custom views</h5>
+                    </div> 
+                    <a class="button dark" href="">CHOOSE</a>               
+                </div>
+
+                <div class="container-price">
+                    <h3>STANDART</h3>
+                    <h1>$ 14.99</h1>
+                    <h4>/ MONTH</h4>
+                    <div class="obs">
+                        <h5>Tracking Issues</h5>
+                        <h5>Add bugs through email</h5>
+                        <h5>Notifications</h5>
+                        <h5>Time tracking</h5>
+                        <h5>Custom views</h5>
+                    </div> 
+                    <a class="button dark" href="">CHOOSE</a>                   
+                </div>
+
+                <div class="container-price">
+                    <h3>LUXE</h3>
+                    <h1>$ 19.99</h1>
+                    <h4>/ MONTH</h4>
+                    <div class="obs">
+                        <h5>Tracking Issues</h5>
+                        <h5>Add bugs through email</h5>
+                        <h5>Notifications</h5>
+                        <h5>Time tracking</h5>
+                        <h5>Custom views</h5>
+                    </div>  
+                    <a class="button dark" href="">CHOOSE</a>                  
+                </div>
+
+                <div class="container-price">
+                    <h3>PREMIUM</h3>
+                    <h1>$ 24.99</h1>
+                    <h4>/ MONTH</h4>
+                    <div class="obs">
+                        <h5>Tracking Issues</h5>
+                        <h5>Add bugs through email</h5>
+                        <h5>Notifications</h5>
+                        <h5>Time tracking</h5>
+                        <h5>Custom views</h5>
+                    </div>  
+                    <a class="button active" href="">CHOOSE</a>                  
+                </div>
+                
+
+            </div>
+
+        </section>
+
+        <section class="premium">
+            <div class="titulo">
+                <h1>PREMIUM</h1>
+                <h3>EVEN MORE FEATURES AVAILABLE</h3>
+            </div>
+            <div class="container-premium">
+                <div class="premium-box-left">
+                    <img src="imagens/livros.png" alt="">
+                </div>
+
+                <div class="premium-box-right">
+                    <div class="box-inside">
+                        <div class="check-img">
+                            <img src="icons/check.png" alt="">
+                        </div>
+                        <div class="list-premium">
+                            <h1>FIRST FEATURE</h1>
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum nullas aisoel oawqpeja</h5>
+                            <h3>- FEATURE ONE</h3>
+                            <h3>- FEATURE TWO</h3>
+                            <h3>- FEATURE THREE</h3>
+                        </div>
+                    </div>
+                     
+                    <div class="box-inside">
+                        <div class="check-img">
+                            <img src="icons/check.png" alt="">
+                        </div>
+                        <div class="list-premium">
+                            <h1>SECOND FEATURE</h1>
+                            <h5>Lorem ipsum dolor sit amet consect.</h5>                            
+                        </div>
+                    </div>
+
+                    <div class="box-inside">
+                        <div class="check-img">
+                            <img src="icons/check.png" alt="">
+                        </div>
+                        <div class="list-premium">
+                            <h1>THIRD FEATURE</h1>
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisi.</h5>                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="slide">
+                <div class="circle active"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <a class="button" href="">GET IN TOUCH</a>  
+        </section>
+
+        <section class="some-facts">
+            <div class="titulo light">
+                <h1>SOME FACTS</h1>
+                <h3>ABOUT OUR WORK</h3>
+            </div>
+
+            <div class="container-facts">
+                <div class="box-facts">
+                    <h1>1000</h1>
+                    <div class="bar"></div>
+                    <h2>DESIGN PROJECTS  RELEASED</h2>
+                    <h5>Praesent metus urna, feugiat a placerat elemntum at leo</h5>
+                </div>
+            
+                <div class="box-facts">
+                    <h1>900</h1>
+                    <div class="bar"></div>
+                    <h2>PHOTOS</h2>
+                    <h5>Praesent metus urna, feugiat a placerat elemntum at leo</h5>
+                </div>
+            
+                <div class="box-facts">
+                    <h1>500</h1>
+                    <div class="bar"></div>
+                    <h2>MARKETING IDEAS</h2>
+                    <h5>Praesent metus urna, feugiat a placerat elemntum at leo</h5>
+                </div>
+            
+                <div class="box-facts">
+                    <h1>100</h1>
+                    <div class="bar"></div>
+                    <h2>EXHIBITIONS</h2>
+                    <h5>Praesent metus urna, feugiat a placerat elemntum at leo</h5>
+                </div>
+            
+
+        </section>
+
+        <nav class="nav-social-media">
+            <div class="share">
+                <i><img src="icons/share.png" alt=""></i>
+                <h4>TELL ABOUT US:</h4>
+            </div>
+            <div class="social-icons">
+                <ul>
+                    <li><a href=""><i style="background-color:#33c4f0 ;"><img  src="icons/twitter.png" alt=""></i> 152</a></li>
+
+                    <li><a href=""><i style="background-color:#127db5 ;"><img  src="icons/linkedin.png" alt=""></i>31</a></li>
+
+                    <li><a href=""><i style="background-color:#336296 ;"><img  src="icons/facebook.png" alt=""></i> 165</a></li>
+
+                    <li><a href=""><i style="background-color:#d65a12e0 ;"><img  src="icons/googleplus.png" alt=""></i> 22</a></li>
+
+                    <li><a href=""><i style="background-color:#b71d29 ;"><img  src="icons/pinterest.png" alt=""></i> 165</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        
+        <section class="contact-us">
+            <div class="titulo">
+                <h1>CONTACT US</h1>
+                <h3>OUR AGENCY LOCATED IN MELBOURNE, AUSTRALIA</h3>
+            </div>
+
+            <div class="container-conteudo">
+                <div class="container-inputs">
+                    <form action="">
+                        <div class="row-one row">
+                            <label>
+                                <input type="text" name="name" placeholder="NAME" id="name">
+                            </label>
+                            <label>
+                                    <input type="email" name="email" id="email" placeholder="EMAIL">
+                            </label>
+                        </div>
+
+                        <div class="row-two row">
+                            <label>
+                                <input type="text" name="subject" id="subject" placeholder="SUBJECT">
+                            </label>
+                        </div>
+
+                        <div class="row-three row">
+                            <label>
+                                <input type="text" name="message" id="message" placeholder="MESSAGE">
+                            </label>
+                        </div>
+                        <input type="submit" class="button" value="SEND MESSAGE">
+                    </form>  
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <section class="map">
+            <div class="container-map">
+                <div class="contact-row">
+                    <i><img src="icons/carta.png" alt=""></i>
+                    <h4>PO Box 16122 Collins Stret West Victoria 8007 Australia</h4>
+                </div>
+
+                <div class="contact-row">
+                    <i><img src="icons/localizacao.png" alt=""></i>
+                    <h4>121 King Street Melbourne Victoria 3000 Australia</h4>
+                </div>
+
+                <div class="contact-row">
+                    <i><img src="icons/telefone.png" alt=""></i>
+                    <h4>+00 0 1234 5678</h4>
+                </div>
+
+                <div class="contact-row">
+                    <i><img src="icons/arroba.png" alt=""></i>
+                    <h4>bukingdesign@gmail.com</h4>
+                </div>
+
+                <div class="contact-row">
+                    <i><img src="icons/web.png" alt=""></i>
+                    <h4>www.envato.com</h4>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="rodape">
+            <div class="box-foot box-foot-one">
+                <div class="social-medias-foot">
+                    <i><img src="icons/twitter.png" alt=""></i>
+                    <i><img src="icons/arroba.png" alt=""></i>
+                    <i><img src="icons/linkedin.png" alt=""></i>
+                    <i><img src="icons/facebook.png" alt=""></i>
+                    <i><img src="icons/web.png" alt=""></i>
+                    <i><img src="icons/googleplus.png" alt=""></i>
+                    <i><img src="icons/pinterest.png" alt=""></i>
+                </div>
+                <div class="copyrigth">
+                    <h4>AWAX <span>C</span> 2016</h4>
+                </div>
+            </div>
+
+            <div class="box-foot box-foot-two">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ullam perferendis possimus aliquam quibusdam optio minima nam necessitatibus omnis voluptatem. Quos, nesciunt iusto. Mollitia, libero obcaecati? Quae corporis commodi perferendis!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+
+            <div class="box-foot box-foot-three">
+               <form action="get">
+                    
+                        <input type="email" id="email-footer" name="email-footer" placeholder="EMAIL TO SUBSCRIBE">
+                   
+                    <input class="button" type="submit">
+               </form> 
+            </div>
+
+        </section>
+    </footer>
+    
+</body>
+</html>

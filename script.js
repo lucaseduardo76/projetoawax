@@ -10,37 +10,44 @@
         };
    
 
-        function aparecer(button){
-            button.style.display = 'none';
-            let one = document.getElementsByClassName('site')
-         
-            for(let n = 0; n < one.length; n++){
-                one[n].style.display = 'block';
-            }
+       
+        function pular(){ 
+            removerClass() 
+            if(n > 3){
+                n = 1
+            }          
+            slider.classList.add(`bg${n}-photo`); 
+            document.querySelector(`#circle${n}`).classList.add('active');
+            n++          
+        };
 
-            document.getElementById('muda-cor').classList.remove('cor-one')
+        function removerClass(){
+            for(let n = 1; n < 4; n++){
+                document.querySelector(`#circle${n}`).classList.remove('active');
+                slider.classList.remove(`bg${n}-photo`);
+            }
+           
+        };
+
+        function sliderOurTeam(){
+            let slid = document.querySelector('.container-slide-worker');
+            let margi; 
+            let a = 'margin-left';
+            if(window.screen.width > 1300){
+                margi = 440
+            }else{
+                margi = 330
+            }
+            
+
+            const newLocal = slid.style.a = '50px';
+
         }
-        function scrollAboutUs(){
-            window.scrollTo({
-                top:928,
-                behavior:'smooth'
-            })
-        }
-        function services(){
-            window.scrollTo({
-                top:1591,
-                behavior:'smooth'
-            })
-        }
-        function ourProjects(){
-            window.scrollTo({
-                top:2007,
-                behavior:'smooth'
-            })
-        }
-        function ourTeam(){
-            window.scrollTo({
-                top:2934,
-                behavior:'smooth'
-            })
-        }
+
+
+
+        
+        let slider = document.querySelector('#box');
+        let classeSlider = document.querySelector('#box').set
+        let n = 1;
+        setInterval(pular, 5000)

@@ -19,9 +19,6 @@
     
     
 }
-.cor-one{
-    background-color: #777;
-}
 
 .botao-inicio{
     background-color: #b98b59;
@@ -85,13 +82,29 @@
     margin-right: 50px;
 
 }
-.bg-photo{
+.bg1-photo{
     background-image: url(../imagens/bg.jpg);
     height: calc(100vh - 100px);
     width: 100%;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;   
+    transition: 2s all; 
+}
+.bg2-photo{
+    background-image: url(../imagens/bg2.webp);
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-position: center;
+    background-size: cover;   
+    transition: 2s all;  
+}
+.bg3-photo{
+    background-image: url(../imagens/bg3.jpg);
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-position: center;
+    background-size: cover;   
+    transition: 2s all;  
 }
 .container-rgba{
     display: flex;

@@ -149,6 +149,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 2s all; 
 }
 .circle{
     width: 15px;
@@ -156,9 +157,11 @@
     border-radius: 15px;
     margin: 3px;
     border: #b98b59 solid 3px;
+    transition: 2s all; 
 }
 .slide .active{
     background-color: #b98b59;
+    transition: 2s all; 
 }
 .about-us{
     display: flex;

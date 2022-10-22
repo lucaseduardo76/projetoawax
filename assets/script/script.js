@@ -8,46 +8,30 @@
                 }
             });
         };
-   
-
-       
-        function pular(){ 
-            removerClass() 
-            if(n > 3){
-                n = 1
-            }          
-            slider.classList.add(`bg${n}-photo`); 
-            document.querySelector(`#circle${n}`).classList.add('active');
+        
+        function jump(){
+            if(n > 2){
+                n = 0
+            }  
+            document.querySelector(`.slie`).style.marginLeft =  `calc(-${n}00vw)`;       
             n++          
-        };
 
-        function removerClass(){
-            for(let n = 1; n < 4; n++){
-                document.querySelector(`#circle${n}`).classList.remove('active');
-                slider.classList.remove(`bg${n}-photo`);
-            }
-           
-        };
-
-        function sliderOurTeam(){
-            let slid = document.querySelector('.container-slide-worker');
-            let margi; 
-            let a = 'margin-left';
-            if(window.screen.width > 1300){
-                margi = 440
-            }else{
-                margi = 330
-            }
-            
-
-            const newLocal = slid.style.a = '50px';
-
+        }
+        function jumpOne(){
+            document.querySelector(`.slie`).style.marginLeft =  `calc(-000vw)`;
+            n = 1; 
+        }
+        function jumpTwo(){
+            document.querySelector(`.slie`).style.marginLeft =  `calc(-100vw)`;
+            n = 2;
+        }
+        function jumpThree(){
+            document.querySelector(`.slie`).style.marginLeft =  `calc(-200vw)`;
+            n = 3;
         }
 
 
-
+        setInterval(jump, 10000);
         
-        let slider = document.querySelector('#box');
-        let classeSlider = document.querySelector('#box').set
-        let n = 1;
-        setInterval(pular, 5000)
+        let n = 0;
+      

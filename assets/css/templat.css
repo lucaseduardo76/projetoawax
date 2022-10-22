@@ -97,9 +97,9 @@
     width: 100vw;
     height: calc(100vh - 100px);
     display: flex;    
-    transition: all ease 2;
+    transition: all ease 2s;
     background-color: #373737;
-    transition: all ease 2s; 
+     
 }
 
 .bg1-photo{

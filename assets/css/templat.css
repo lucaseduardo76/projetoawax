@@ -498,8 +498,8 @@
     padding: 0 1%;
     position: absolute;
     width: 100%;
-    height: 730px;
-    align-items: center;
+    height: 375px;
+    align-items: end;
 }
 .arrows div{
     display: flex;
@@ -558,8 +558,8 @@
     margin-right: 3px;
     margin-left: 3px; 
     cursor: pointer;  
+   
 }
-
 .social-medias i:hover{
     background-color: #b98b59;
 }

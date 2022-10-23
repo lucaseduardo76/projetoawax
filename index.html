@@ -117,11 +117,7 @@
                     </div>
                      
                     <div class="img">
-                        <div class="black">
-                            <h3>WHATCH</h3>
-                            <i><img src="assets/icons/icon-play.png" alt=""></i>
-                            <h3>VIDEO!</h3>
-                        </div>
+                        <iframe id="youtube-video"  src="https://www.youtube.com/embed/TNQsmPf24go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>                   
                 </div>
             </div>
@@ -254,6 +250,11 @@
 
         <section id="our-team">
             <div class="black-background">
+                <div class="arrows">
+                    <div id="prev"><img style="height: 40px;"src="assets/icons/left.png" alt=""></div>
+                    <div id="next"><img style="height: 40px;" src="assets/icons/right.png" alt=""></div>
+                    
+                </div>
                 <div class="titulo">
                     <h1 style="color: #fff;">OUR TEAM</h1>
                     <h3>OUR CO-WORKERS</h3>
@@ -261,10 +262,10 @@
                 <div class="container-workers">
                     <div class="container-slide-worker">   
                         <div class="box-workers">
-                            <img class="img-workers" src="assets/imagens/mulher1.png" alt="">
+                            <img class="img-workers" src="assets/imagens/lucas.jpeg" alt="">
                             <div class="names">
-                                <h1>JANE DOE</h1>
-                                <h3>Master mind</h3>
+                                <h1>LUCAS EDUARDO</h1>
+                                <h3>software developer</h3>
                             </div>
                             <div class="social-medias">
                                 <i><img src="assets/icons/twitter.png" alt=""></i>
@@ -278,9 +279,9 @@
                         </div>
 
                         <div class="box-workers">
-                            <img class="img-workers" src="assets/imagens/homem1.png" alt="">
+                            <img class="img-workers" src="assets/imagens/larah.jpg" alt="">
                             <div class="names">
-                                <h1>MIKE SHILLER</h1>
+                                <h1>Larah Raquel</h1>
                                 <h3>creative head</h3>
                             </div>
                             <div class="social-medias">
@@ -295,9 +296,9 @@
                         </div>
 
                         <div class="box-workers">
-                            <img class="img-workers" src="assets/imagens/mulher2.png" alt="">
+                            <img class="img-workers" src="assets/imagens/isadora.jpeg" alt="">
                             <div class="names">
-                                <h1>ANNA JOHNS</h1>
+                                <h1>Isadora Silva</h1>
                                 <h3>technical lead</h3>
                             </div>
                             <div class="social-medias">
@@ -312,9 +313,26 @@
                         </div>
 
                         <div class="box-workers">
-                            <img class="img-workers" src="assets/imagens/mulher1.png" alt="">
+                            <img class="img-workers" src="assets/imagens/ailla.jpeg" alt="">
                             <div class="names">
-                                <h1>AILLA ALMEIDA</h1>
+                                <h1>Ailla Almeida</h1>
+                                <h3>Master mind</h3>
+                            </div>
+                            <div class="social-medias">
+                                <i><img src="assets/icons/twitter.png" alt=""></i>
+                                <i><img src="assets/icons/arroba.png" alt=""></i>
+                                <i><img src="assets/icons/linkedin.png" alt=""></i>
+                                <i><img src="assets/icons/facebook.png" alt=""></i>
+                                <i><img src="assets/icons/web.png" alt=""></i>
+                                <i><img src="assets/icons/googleplus.png" alt=""></i>
+                                <i><img src="assets/icons/pinterest.png" alt=""></i>
+                            </div>
+                        </div>
+
+                        <div class="box-workers">
+                            <img class="img-workers" src="assets/imagens/nathalia.jpeg" alt="">
+                            <div class="names">
+                                <h1>Nathalia Raquel</h1>
                                 <h3>technical lead</h3>
                             </div>
                             <div class="social-medias">
@@ -329,9 +347,25 @@
                         </div>
 
                         <div class="box-workers">
-                            <img class="img-workers" src="assets/imagens/mulher1.png" alt="">
+                            <img class="img-workers" src="assets/imagens/nathan.jpeg" alt="">
                             <div class="names">
-                                <h1>LARAH RAQUEL</h1>
+                                <h1>Nathan Felipe</h1>
+                                <h3>technical lead</h3>
+                            </div>
+                            <div class="social-medias">
+                                <i><img src="assets/icons/twitter.png" alt=""></i>
+                                <i><img src="assets/icons/arroba.png" alt=""></i>
+                                <i><img src="assets/icons/linkedin.png" alt=""></i>
+                                <i><img src="assets/icons/facebook.png" alt=""></i>
+                                <i><img src="assets/icons/web.png" alt=""></i>
+                                <i><img src="assets/icons/googleplus.png" alt=""></i>
+                                <i><img src="assets/icons/pinterest.png" alt=""></i>
+                            </div>
+                        </div>
+                        <div class="box-workers">
+                            <img class="img-workers" src="assets/imagens/wilke.jpeg" alt="">
+                            <div class="names">
+                                <h1>Wilke Meireles</h1>
                                 <h3>technical lead</h3>
                             </div>
                             <div class="social-medias">
@@ -346,11 +380,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide">
-                    <div class="circle active"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
+                
+                <div id="slideWorker" class="slide">
+                </div>  
+                    
             </div>
         </section>
         
@@ -371,11 +404,7 @@
                     <img src="assets/icons/quote.png" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde dignissimos earum sapiente, laudantium blanditiis rerum adipisci reiciendis, accusantium consectetur itaque nemo. Quod, obcaecati ipsam odit quibusdam iusto dolorum officiis!</p>
                     
-                    <div class="slide">
-                        <div class="circle active"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                    </div>
+                  
                 </main>
             </div>
         </section>
@@ -507,11 +536,7 @@
 
 
             </div>
-            <div class="slide">
-                <div class="circle active"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-            </div>
+
             <a class="button" href="">GET IN TOUCH</a>  
         </section>
 

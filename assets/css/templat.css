@@ -19,7 +19,22 @@
     
     
 }
-
+#bot-top{
+    position: fixed;
+    background-color: #b98b59;
+    right: 0;
+    bottom: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#bot-top img{
+    height: 40px;
+    
+}
 .container-nav{
     display: flex;
     justify-content: space-between;

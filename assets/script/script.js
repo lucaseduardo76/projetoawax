@@ -83,6 +83,23 @@
 
         }
 
+        document.querySelector('#bot-top').addEventListener('click', () => {
+            window.scrollTo({
+                top:0,
+                left:0,
+                behavior:'smooth'
+            })
+        })
+
+        addEventListener('scroll', () =>{
+            if(window.scrollY == 0){
+                document.querySelector('#bot-top').style.display = 'none';
+                console.log(window.scrollY + "one")
+            }else{
+                document.querySelector('#bot-top').style.display = 'flex';
+                console.log(window.scrollY + "two")
+            }
+        })
         let move = 0;
         let extraBox = 0;
         let containerWorkers = document.querySelector('.container-slide-worker');                    

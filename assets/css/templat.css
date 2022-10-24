@@ -30,6 +30,7 @@
     display: none;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 #bot-top img{
     height: 40px;

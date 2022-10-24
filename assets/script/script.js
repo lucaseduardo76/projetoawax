@@ -93,11 +93,9 @@
 
         addEventListener('scroll', () =>{
             if(window.scrollY == 0){
-                document.querySelector('#bot-top').style.display = 'none';
-                console.log(window.scrollY + "one")
+                document.querySelector('#bot-top').style.display = 'none';                
             }else{
-                document.querySelector('#bot-top').style.display = 'flex';
-                console.log(window.scrollY + "two")
+                document.querySelector('#bot-top').style.display = 'flex';        
             }
         })
         let move = 0;

@@ -1,28 +1,29 @@
-        function jump(){
+        const jump = () =>{
             if(n > 2){
                 n = 0
             }  
+            cleanPointerSlide()
+            pointerSlideTop[n].classList.add('active')
             document.querySelector(`.slie`).style.marginLeft =  `calc(-${n}00vw)`;       
             n++          
 
         }
-        function jumpOne(){
-            document.querySelector(`.slie`).style.marginLeft =  `calc(-000vw)`;
-            n = 1; 
+        const jumpTo = (position) =>{
+            position = parseInt(position)
+            n = position;
+            jump()
+            n = position + 1;
             clearInterval(myTimer)
             myTimer = setInterval(jump, 6000);
         }
-        function jumpTwo(){
-            document.querySelector(`.slie`).style.marginLeft =  `calc(-100vw)`;
-            n = 2;
-            clearInterval(myTimer)
-            myTimer = setInterval(jump, 6000);
-        }
-        function jumpThree(){
-            document.querySelector(`.slie`).style.marginLeft =  `calc(-200vw)`;
-            n = 3;
-            clearInterval(myTimer)
-            myTimer = setInterval(jump, 6000);
+       
+        const cleanPointerSlide = () => {       
+            for(let n = 0; n < pointerSlideTop.length; n++){
+                let check = pointerSlideTop[n].classList.contains('active');                
+                if(check){
+                    pointerSlideTop[n].classList.remove('active');
+                }
+            }
         }
         window.onload = function(){
             document.querySelector("#menu-bar").addEventListener("click", function(){
@@ -53,7 +54,7 @@
             containerWorkers.style.marginLeft = `${-330 * move}px`
             
         })
-        function checkBoxWorkers(){
+        const checkBoxWorkers = () =>{
             let userScreen = window.screen.width;
             let workersBoxScreen = 3;  
             let workersBox = document.querySelectorAll(".box-workers").length; 
@@ -100,7 +101,8 @@
         })
         let move = 0;
         let extraBox = 0;
-        let containerWorkers = document.querySelector('.container-slide-worker');                    
+        let containerWorkers = document.querySelector('.container-slide-worker');  
+        let pointerSlideTop = document.querySelectorAll('.point-slide--top');                  
         let myTimer = setInterval(jump, 6000);        
         let n = 0;
 

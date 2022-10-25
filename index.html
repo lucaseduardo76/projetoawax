@@ -15,7 +15,7 @@
 <body>
     <div id="bot-top"><img src="assets/icons/top.png" alt=""></div>
 
-    <header class="site" style="display: nne;">
+    <header">
         <div class="container-nav">
             <div class="logo">
                 <img src="assets/imagens/logo-awax.png" alt="">
@@ -48,12 +48,7 @@
                                 <h3>CALL US: +00 0 1234 5678</h3>
                                 <a class="button" href="">GET IN TOUCH!</a>    
                             </div>
-                            <div class="slide">
-                                <div id="circle1" onclick="jumpOne()" class="circle active"></div>
-                                <div id="circle2" onclick="jumpTwo()"  class="circle"></div>
-                                <div id="circle3" onclick="jumpThree()" class="circle"></div>
-                                
-                            </div>
+                            
                         </div>                
                     </div>  
                 </div>
@@ -67,12 +62,7 @@
                                 <h3>CALL US: +00 0 1234 5678</h3>
                                 <a class="button" href="">GET IN TOUCH!</a>    
                             </div>
-                            <div class="slide">
-                                <div id="circle1" onclick="jumpOne()" class="circle"></div>
-                                <div id="circle2" onclick="jumpTwo()"  class="circle  active"></div>
-                                <div id="circle3" onclick="jumpThree()" class="circle"></div>
-                                
-                            </div>
+                            
                         </div>                
                     </div>  
                 </div>
@@ -86,16 +76,18 @@
                                 <h3>CALL US: +00 0 1234 5678</h3>
                                 <a class="button" href="">GET IN TOUCH!</a>    
                             </div>
-                            <div class="slide">
-                                <div id="circle1" onclick="jumpOne()"  class="circle"></div>
-                                <div id="circle2" onclick="jumpTwo()" class="circle"></div>
-                                <div id="circle3" onclick="jumpThree()" class="circle active"></div>
-                            </div>
+                            
                         </div>                
-                    </div>             
-
+                    </div> 
                 </div>
+                
             </div> 
+            <div class="slide" style="position: absolute; bottom: 0;">
+                <div id="0"  onclick="jumpTo(this.id)" class="circle point-slide--top active"></div>
+                <div id="1" onclick="jumpTo(this.id)"  class="circle point-slide--top"></div>
+                <div id="2"  onclick="jumpTo(this.id)" class="circle point-slide--top"></div>
+                
+            </div>
         </div>
 
         <section class="about-us">
@@ -634,7 +626,7 @@
 
         </section>
     </main>
-    <footer class="site" style="display: noe;">
+    <footer">
         <section class="map">
             <div class="container-map">
                 <div class="contact-row">

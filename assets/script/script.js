@@ -101,7 +101,7 @@ addEventListener('scroll', () => {
 });
 
 const scrl = (e, it) =>{ 
-    if(window.screen.width <= 860{
+    if(window.screen.width <= 860){
         document.querySelector(".nav ul").style.display = 'none';
     }
     e.preventDefault();

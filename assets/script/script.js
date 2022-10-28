@@ -101,6 +101,7 @@ addEventListener('scroll', () => {
 });
 
 const scrl = (e, it) =>{ 
+    document.querySelector(".nav ul").style.display = 'none';
     e.preventDefault();
     let id = it.getAttribute('href')
     let section = document.querySelector(id);

@@ -4,3 +4,4 @@ Projeto proposto pelo curso da B7WEB Criado para desenvolver as habilidades em H
 
 - Esse projeto me impusionou como nenhum outro, projeto dividido em varias sessões e em cada uma um novo desafio com o HTML e CSS.
 - Totalmente responsivo
+- Layout dinâmico
